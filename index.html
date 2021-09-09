@@ -7,11 +7,11 @@
             function addDog(){
                 let dogCounter = document.querySelector("#dog-counter").innerText;
                 dogCounter = parseInt(dogCounter, 10);
-                document.querySelector(".dog-counter").innerText = dogCounter + 1;
+                document.querySelector("#dog-counter").innerText = dogCounter + 1;
             }
             function updateDog(){
-                let dogEntry = document.querySelector(".dog-entry").innerText;
-                document.querySelector(".dog-counter").innerText = dogEntry;
+                let dogEntry = document.querySelector("#dog-entry").innerText;
+                document.querySelector("#dog-counter").innerText = dogEntry;
             }
         </script>
     </head>
